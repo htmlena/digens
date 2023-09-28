@@ -1,4 +1,10 @@
-const Link = ({href, text}) => {
+import { FunctionComponent } from 'react'
+interface LinkProps {
+    href: string;
+    text: string;
+}
+
+const Link: FunctionComponent<LinkProps> = ({href, text}) => {
     return (
         <div className="inline-flex gap-x-2.5">
             <a href={href} className="text-textWhite uppercase text-sm tracking-wider font-extrabold">
