@@ -1,12 +1,11 @@
 import './App.css'
+import DescriptionBlock from './components/DescriptionBlock/DescriptionBlock.jsx'
 
 function App() {
 
   return (
-    <main>
-      <h1 className="text-3xl font-bold text-white underline bg-darkBackground">
-        Hello world!
-      </h1>
+    <main className="bg-darkBackground">
+        <DescriptionBlock headingElement={'more than obvious'} heading={'Digital products for your brand'} />
     </main>
   )
 }
