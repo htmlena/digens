@@ -1,6 +1,12 @@
 import Link from '../Link/Link'
+import { FunctionComponent } from 'react'
+interface CardProps {
+    heading: string;
+    iconPath: string;
+    shortDescription: string;
+}
 
-const Card = ({heading, iconPath, shortDescription}) => {
+const Card: FunctionComponent<CardProps> = ({heading, iconPath, shortDescription}) => {
     return (
         <div className="flex flex-col border-2 border-textOnDark/10 border-solid py-16 px-14 w-[330px] h-[420px]">
             <object type="image/svg+xml" data={iconPath} width="125" height="78"></object>

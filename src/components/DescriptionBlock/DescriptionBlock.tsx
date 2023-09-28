@@ -1,4 +1,12 @@
-const DescriptionBlock = ({headingElement, heading, shortDescription, children}) => {
+import { FunctionComponent, PropsWithChildren } from 'react'
+
+interface DescriptionBlockProps extends PropsWithChildren <{
+    headingElement: string;
+    heading: string;
+    shortDescription: string;
+}> {}
+
+const DescriptionBlock: FunctionComponent<DescriptionBlockProps> = ({headingElement, heading, shortDescription, children}) => {
     return (
     <div className="flex flex-col justify-start">
         <div className="inline-flex text-textMain gap-x-2">
