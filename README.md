@@ -1,4 +1,4 @@
-# React + Vite + Tailwind
+# React + Typescript + Vite + Tailwind
 
 This is a project created for the mentoring program
 

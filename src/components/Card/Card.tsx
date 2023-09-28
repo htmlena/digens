@@ -1,4 +1,4 @@
-import Link from '../../components/Link/Link'
+import Link from '../Link/Link'
 
 const Card = ({heading, iconPath, shortDescription}) => {
     return (

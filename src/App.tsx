@@ -1,5 +1,5 @@
 import './App.css'
-import DescriptionBlock from './components/DescriptionBlock/DescriptionBlock.jsx'
+import DescriptionBlock from './components/DescriptionBlock/DescriptionBlock'
 import Button from './components/Button/Button'
 import Link from './components/Link/Link'
 import Card from './components/Card/Card'
