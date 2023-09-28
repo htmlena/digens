@@ -9,11 +9,12 @@ export default {
       colors: {
         'darkBackground': '#0D0F16',
         'textWhite': '#FFFFFF',
-        'textMain': '#FF455B'
+        'textMain': '#FF455B',
+        'textOnDark': '#989CAC'
       },
       fontFamily: {
         'mulish': ['Mulish', 'sans-serif'],
-        'raleway': ['Raleway', 'sans-serif']
+        'raleway': ['Raleway', 'sans-serif'],
       }
     },
   },
